@@ -9,7 +9,7 @@
 
 - Unity: [Unity/](Unity/)
 - Godot: [Godot/](Godot/)
-- Screenshots: [screenshots/](screenshots/)
+- Screenshots: [screenshots/](Screenshots/)
 - Comparação dos Engine: [Comparação.md](Docs/Comparação.md)
 - Reflexão Final: [ReflexãoFinal.md](Docs/ReflexãoFinal.md)
 
@@ -20,6 +20,12 @@
 ## Objetivo
 
 O objetivo foi o desenvolvimento de um jogo 2D onde o jogador se movimenta até alcançar um alvo, recebendo uma mensagem de sucesso.
+
+## Protótipos
+
+| Unity                                                      | Godot                                                |
+| ---------------------------------------------------------- | ---------------------------------------------------- |
+| ![Unity - Prototipo](Screenshots/Unity_Target_Reached.png) | ![Godot - Prototipo](Screenshots/Godot_Obstacle.png) |
 
 ## Controlos
 
