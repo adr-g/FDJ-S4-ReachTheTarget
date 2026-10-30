@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://chlloq0w6qvdd"]
 
+[ext_resource type="Script" uid="uid://bcgjveddfu8wv" path="res://Scripts/Player.cs" id="1_bo1nx"]
 [ext_resource type="Texture2D" uid="uid://c6gvxmfe2qo3y" path="res://icon.svg" id="1_jjgbg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7pcdr"]
@@ -7,6 +8,8 @@
 [node name="Main" type="Node2D" unique_id=1017695656]
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=383267571]
+position = Vector2(150, 300)
+script = ExtResource("1_bo1nx")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=2056458022]
 scale = Vector2(0.4, 0.4)
