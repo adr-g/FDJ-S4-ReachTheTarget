@@ -17,4 +17,4 @@
 
 Apesar de ambos os engine seguem uma lógica relativamente simples, considero o `Godot` mais intuitivo para quem está a começar. A sua interface parece-me mais acessível e a organização através de nodes facilita a compreensão da estrutura e das relações entre os mesmos. Além disso, o sistema de sinais torna as interações mais intuitivas, após o seu choque inicial.
 
-O **Unity** também permite alcançar os mesmos resultados, mas a quantidade de componentes, opções e configurações torna uma experiência inicial um pouco mais intimidante. No geral, sinto que o **Godot** oferece uma abordagem mais direta e amigável.
+O `Unity` também permite alcançar os mesmos resultados, mas a quantidade de componentes, opções e configurações torna uma experiência inicial um pouco mais intimidante. No geral, sinto que o `Godot` oferece uma abordagem mais direta e amigável.
