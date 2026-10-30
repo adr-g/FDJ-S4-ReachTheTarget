@@ -16,5 +16,11 @@ public partial class Player : CharacterBody2D
 
 		Velocity = direction * Speed;
 		MoveAndSlide();
+
+		if (Input.IsActionJustPressed("restart"))
+		{
+			//get tree - aceder arvore de cenas do jg
+			GetTree().ReloadCurrentScene();
+		}
 	}
 }
