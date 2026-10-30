@@ -16,6 +16,9 @@ gradient = SubResource("Gradient_8gbba")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_unhfr"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2kl7d"]
+size = Vector2(40, 180)
+
 [node name="Main" type="Node2D" unique_id=1017695656]
 
 [node name="Background" type="TextureRect" parent="." unique_id=849535828]
@@ -26,7 +29,7 @@ texture = SubResource("GradientTexture2D_7pcdr")
 stretch_mode = 1
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=383267571]
-position = Vector2(150, 300)
+position = Vector2(200, 350)
 script = ExtResource("1_bo1nx")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=2056458022]
@@ -38,7 +41,7 @@ scale = Vector2(2.5, 2.5)
 shape = SubResource("RectangleShape2D_7pcdr")
 
 [node name="Target" type="Area2D" parent="." unique_id=793173917]
-position = Vector2(800, 300)
+position = Vector2(800, 350)
 script = ExtResource("3_8gbba")
 
 [node name="Sprite2D" type="Sprite2D" parent="Target" unique_id=539024634]
@@ -57,5 +60,15 @@ offset_right = 864.0
 offset_bottom = 138.0
 theme_override_font_sizes/font_size = 64
 text = "Reach the Target!"
+
+[node name="Obstacle" type="StaticBody2D" parent="." unique_id=1358334965]
+position = Vector2(500, 350)
+scale = Vector2(1.012, 1.7)
+
+[node name="Polygon2D" type="Polygon2D" parent="Obstacle" unique_id=747625336]
+polygon = PackedVector2Array(-20, -90, 20, -90, 20, 90, -20, 90)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Obstacle" unique_id=748958888]
+shape = SubResource("RectangleShape2D_2kl7d")
 
 [connection signal="body_entered" from="Target" to="Target" method="OnBodyEntered"]
