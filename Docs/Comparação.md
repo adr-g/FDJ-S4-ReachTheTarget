@@ -3,7 +3,7 @@
 ## 1. Comparação dos Motores
 
 | Aspeto | Godot 4 .NET | Unity |
-| ... | ... | ... |
+| --- | --- | --- |
 | Objeto principal do jogador | CharacterBody2D - base para criar e movimentar o jogador | GameObject + componentes - base do jogador onde se adiciona os componentes necessários |
 | Organização da cena | Scene Tree - organização em nodes (pais e filhos) | Hierarchy - ordem é valorizada, usei também objetos empty para organização |
 | Visual | Sprite2D - permite dar imagem ao jogador e ao target | SpriteRenderer - permitiu representar os quadrados |
