@@ -4,11 +4,26 @@
 [ext_resource type="Texture2D" uid="uid://c6gvxmfe2qo3y" path="res://icon.svg" id="1_jjgbg"]
 [ext_resource type="Script" uid="uid://b661hnmuxweak" path="res://Scenes/Target.cs" id="3_8gbba"]
 
+[sub_resource type="Gradient" id="Gradient_8gbba"]
+interpolation_color_space = 2
+offsets = PackedFloat32Array(0, 0.64350456, 1)
+colors = PackedColorArray(0.18039216, 0.2901961, 0.40784314, 1, 0.15140167, 0.24150321, 0.33679602, 1, 0.15446156, 0.2452245, 0.34109113, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_7pcdr"]
+gradient = SubResource("Gradient_8gbba")
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7pcdr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_unhfr"]
 
 [node name="Main" type="Node2D" unique_id=1017695656]
+
+[node name="Background" type="TextureRect" parent="." unique_id=849535828]
+z_index = -10
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = SubResource("GradientTexture2D_7pcdr")
+stretch_mode = 1
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=383267571]
 position = Vector2(150, 300)
