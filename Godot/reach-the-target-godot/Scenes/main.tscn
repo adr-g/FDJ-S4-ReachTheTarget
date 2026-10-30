@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bcgjveddfu8wv" path="res://Scripts/Player.cs" id="1_bo1nx"]
 [ext_resource type="Texture2D" uid="uid://c6gvxmfe2qo3y" path="res://icon.svg" id="1_jjgbg"]
-[ext_resource type="Script" uid="uid://b661hnmuxweak" path="res://Scenes/Target.cs" id="3_8gbba"]
+[ext_resource type="Script" uid="uid://b661hnmuxweak" path="res://Scripts/Target.cs" id="3_8gbba"]
 
 [sub_resource type="Gradient" id="Gradient_8gbba"]
 interpolation_color_space = 2
