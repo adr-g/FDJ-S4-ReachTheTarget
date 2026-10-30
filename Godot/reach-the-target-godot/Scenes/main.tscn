@@ -35,4 +35,12 @@ texture = ExtResource("1_jjgbg")
 scale = Vector2(2.5, 2.5)
 shape = SubResource("RectangleShape2D_unhfr")
 
+[node name="Message" type="Label" parent="." unique_id=1614987326]
+offset_left = 325.0
+offset_top = 50.0
+offset_right = 864.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 64
+text = "Reach the Target!"
+
 [connection signal="body_entered" from="Target" to="Target" method="OnBodyEntered"]
