@@ -1,9 +1,11 @@
 # FDJ-S4-ReachTheTarget
 
-## Engine
+## Engines
 
-- `Godot 4 .NET (4.7.2)` - versão tutorial + implementação de melhorias
-- `Unity 6.3 LTS (6000.3.27f1)` - versão tutorial
+- `Godot 4 .NET (4.7.2)`
+- `Unity 6.3 LTS (6000.3.27f1)`
+
+> `Godot` foi o engine escolhido para desenvolver além do tutorial.
 
 ## Estrutura do repositório
 
