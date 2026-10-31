@@ -21,6 +21,13 @@
 
 O objetivo foi o desenvolvimento de um jogo 2D onde o jogador se movimenta até alcançar um alvo, recebendo uma mensagem de sucesso.
 
+
+## Como executar
+
+- **Unity 6.3 LTS:** Projeto em `Unity/ReachTheTarget_Unity/`, cena principal `Assets/Scenes/Main.unity`.
+- **Godot 4.7.2 .NET:** Projeto em `Godot/ReachTheTarget_Godot/`, com a cena principal configurada para execução direta (F5).
+
+
 ## Protótipos
 
 | Unity                                                      | Godot                                                |
